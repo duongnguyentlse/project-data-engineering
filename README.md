@@ -156,7 +156,7 @@ log_progress('Process Complete.')
 ```
 
 ## Result Snapshots 📸
-![Screen Shot 2024-03-22 at 11 42 54 PM](![283521255-7b28e8ae-44ca-4b77-9dde-6c90f8c56cd7](https://github.com/danielngtlse/project-data-engineering/assets/110859185/3d67094e-2101-4969-b361-98375e4a690d))
+![Screen Shot 2024-03-22 at 11 42 54 PM](https://github.com/danielngtlse/project-data-engineering/issues/1#issuecomment-2014845979)
 ![Screen Shot 2024-03-22 at 11 52 37 PM]()
 
 
