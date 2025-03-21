@@ -1,19 +1,32 @@
-# Project Overview 
-Ce projet vous oblige à dresser la liste des 10 plus grandes banques du monde classées par capitalisation boursière en milliards USD. De plus, vous devez transformer les données et les stocker en USD, GBP, EUR et INR selon les informations sur le taux de change mises à votre disposition sous forme de fichier CSV. Vous devez enregistrer le tableau d'informations traitées localement au format CSV et en tant que tableau de base de données. Les gestionnaires de différents pays interrogeront la table de la base de données pour extraire la liste et noter la valeur de la capitalisation boursière dans leur propre devise.
+# 💰 Project: Capitalisation boursière des plus grandes banques - ETL & Conversion multi-devises
 
+## Présentation
+Ce projet consiste à créer un processus **ETL** pour :
+- Extraire les **10 plus grandes banques mondiales** classées par **capitalisation boursière (en milliards USD)**.
+- Convertir ces données en plusieurs devises : **USD, GBP, EUR, INR** à partir d'un fichier CSV de taux de change.
+- Sauvegarder les résultats dans un fichier CSV localement et dans une **base de données SQL**.
+- Permettre à des gestionnaires de différents pays de **consulter la capitalisation boursière dans leur propre devise** via des requêtes SQL.
 
+---
 
-# Objectives📝
-* Vous devez effectuer les tâches suivantes pour ce projet
-   - Écrivez une fonction d'extraction de données pour récupérer les informations pertinentes à partir de l'URL requise.
-   - Transformez les informations disponibles sur le PIB en « Milliard USD » à partir de « Million USD ».
-   - Chargez les informations transformées dans le fichier CSV requis et en tant que fichier de base de données.
-   - Exécutez la requête requise sur la base de données.
-   - Enregistrez la progression du code avec des horodatages appropriés.
+## Objectifs
+- Écrire une fonction d’extraction des données à partir de l’URL cible.  
+- Transformer la capitalisation boursière de million à milliard USD.  
+- Convertir les données vers d’autres devises à partir des taux fournis.  
+- Charger les données dans un **fichier CSV** et dans une **base de données SQLite**.  
+- Interroger la base de données pour obtenir les informations demandées.  
+- Enregistrer les étapes du traitement avec des **horodatages**.
 
-## 📦 Install
+---
 
-- Tout d'abord, installez les bibliothèques requises pour ETL :
+## Installation des dépendances
+
+Avant d’exécuter le projet, installez les bibliothèques nécessaires :
+
+```bash
+pip install pandas
+pip install beautifulsoup4
+
 
 ```bash
 pip3 install pandas
